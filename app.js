@@ -50,14 +50,14 @@ function takeCommand(message) {
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
-    } else if (message.includes("open instagram")) {
-        window.open("https://instagram.com", "_blank");
-        speak("Opening instagram...");
+    } else if (message.includes("open youtube")) {
+        window.open("https://youtube.com", "_blank");
+        speak("Opening youtube...");
     } else if (message.includes("open facebook")) {
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...");
      } else if (message.includes("open Instagram")) {
-        window.open("https://Instagram.com", "_blank");
+        window.open("https://www.instagram.com/", "_blank");
         speak("Opening Instagram...");
     } else if (message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
