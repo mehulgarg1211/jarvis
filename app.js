@@ -50,9 +50,9 @@ function takeCommand(message) {
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
-    } else if (message.includes("open youtube")) {
-        window.open("https://youtube.com", "_blank");
-        speak("Opening Youtube...");
+    } else if (message.includes("open instagram")) {
+        window.open("https://instagram.com", "_blank");
+        speak("Opening instagram...");
     } else if (message.includes("open facebook")) {
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...");
